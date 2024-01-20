@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+
+}
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav img{
+    width: 250px;
+}
+#nav2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    
+}
+#nav2 h3{
+    padding-right: 20px;
+}
+#nav3{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#nav3 h3{
+    padding-right: 20px;
+}
+#nav3 button{
+    background-color: white;
+    width: 120px;
+    height: 50px;
+    color: black;
+    border-color: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#contain{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+#contain h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+#div2{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#div2 button{
+    background-color: #fff;
+    color: black;
+    width: 160px;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+#div3{
+    height: 60px;
+    font-size: 30px;
+    font-weight: 100;
+}
+h5{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    transform: translate(-50%, 0);
+   
+}
